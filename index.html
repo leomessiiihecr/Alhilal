@@ -7,7 +7,7 @@
 <style>
 :root{--bg:#000;--ink:#fff;--dim:#b9c6e6;--gold:#e2b857;color-scheme:dark;box-sizing:border-box}
 *{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
-html,body{height:100%;overflow:hidden}
+html,body{height:100%;overflow:hidden;background:#000}
 body{background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans Arabic",Tahoma,sans-serif;user-select:none}
 .scr{position:fixed;inset:0;display:flex;flex-direction:column;padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px);background:radial-gradient(120% 60% at 85% 12%,#1c3fa8 0%,transparent 60%),linear-gradient(170deg,#08245e,#020b22 62%,#0a1233)}
 .sb{display:flex;justify-content:space-between;padding:12px 26px 0;font-weight:600;font-size:15px;z-index:2}
@@ -32,7 +32,7 @@ body{background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans Arabic",Ta
 .bar{width:36%;height:5px;border-radius:3px;background:#fff;margin:6px auto 10px;cursor:pointer}
 
 /* شاشة رمز القفل Passcode */
-#passcode{z-index:6;background:rgba(4,12,34,.88);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);display:none;flex-direction:column;align-items:center;justify-content:center;padding:20px}
+#passcode{z-index:6;background:rgba(4,12,34,.92);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);display:none;flex-direction:column;align-items:center;justify-content:center;padding:20px}
 #passcode.on{display:flex}
 .pc-title{font-size:20px;font-weight:600;margin-bottom:18px}
 .dots{display:flex;gap:18px;margin-bottom:34px;direction:ltr}
